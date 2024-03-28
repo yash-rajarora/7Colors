@@ -1,0 +1,27 @@
+#comming-soon{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2; /* Background color for demonstration */
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Text color */
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Decrease font size for smaller screens */
+    }
+  }
+  
