@@ -1,11 +1,9 @@
 #comming-soon{
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #f2f2f2; /* Background color for demonstration */
+    align-items: center;/* Background color for demonstration */
   }
   
   .center {
