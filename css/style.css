@@ -1232,7 +1232,7 @@ frame
 @media screen and (max-width: 1200px) {
   .mil-frame .mil-frame-top {
     height: 90px;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: #013C55;
     border-bottom: solid 1px rgba(255, 255, 255, 0.1);
     padding: 0 30px;
     -webkit-backdrop-filter: blur(8px);
@@ -3616,6 +3616,11 @@ price
   font-size: 6em;
   font-weight: 500;
   animation: glitch-skew 1s infinite linear alternate-reverse;
+}
+@media screen and (max-width: 768px) {
+  .mil-404 {
+    font-size: 3em;
+  }
 }
 .mil-404::before {
   content: attr(data-text);
