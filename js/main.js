@@ -63,7 +63,7 @@ $(function () {
       y: "0px",
       opacity: 1,
       stagger: 0.4,
-    }
+    },
   );
 
   timeline.to(
@@ -72,7 +72,7 @@ $(function () {
       opacity: 0,
       y: "-30",
     },
-    "+=.3"
+    "+=.3",
   );
 
   timeline.fromTo(
@@ -84,7 +84,7 @@ $(function () {
     {
       opacity: 1,
       x: "-30",
-    }
+    },
   );
 
   timeline.to(
@@ -94,7 +94,7 @@ $(function () {
       width: "100%",
       x: 0,
     },
-    "+=.1"
+    "+=.1",
   );
   timeline.to(".mil-reveal-box", {
     right: "0",
@@ -110,7 +110,7 @@ $(function () {
     {
       opacity: 1,
     },
-    "-=.5"
+    "-=.5",
   );
   timeline.to(
     ".mil-animation-2 .mil-h3",
@@ -119,7 +119,7 @@ $(function () {
       opacity: 0,
       y: "-30",
     },
-    "+=.5"
+    "+=.5",
   );
   timeline.to(
     ".mil-preloader",
@@ -128,7 +128,7 @@ $(function () {
       opacity: 0,
       ease: "sine",
     },
-    "+=.2"
+    "+=.2",
   );
   timeline.fromTo(
     ".mil-up",
@@ -147,7 +147,7 @@ $(function () {
         $(".mil-preloader").addClass("mil-hidden");
       },
     },
-    "-=1"
+    "-=1",
   );
   /***************************
 
@@ -168,7 +168,7 @@ $(function () {
       {
         scrollTop: target.offset().top - offset,
       },
-      400
+      400,
     );
   });
   /***************************
@@ -180,9 +180,7 @@ $(function () {
     $(".mil-arrow").clone().appendTo(".mil-arrow-place");
     $(".mil-dodecahedron").clone().appendTo(".mil-animation");
     $(".mil-lines").clone().appendTo(".mil-lines-place");
-    $(".mil-main-menu ul li.mil-active > a")
-      .clone()
-      .appendTo(".mil-current-page");
+    $(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
   });
   /***************************
 
@@ -227,7 +225,7 @@ $(function () {
           autoAlpha: 0,
           ease: "none",
         },
-        0
+        0,
       )
       .to(
         plusElement,
@@ -236,7 +234,7 @@ $(function () {
           autoAlpha: 0,
           ease: "none",
         },
-        0
+        0,
       )
       .to(
         symbol,
@@ -244,7 +242,7 @@ $(function () {
           background: accent,
           ease: "none",
         },
-        0
+        0,
       )
       .reverse();
 
@@ -379,7 +377,7 @@ $(function () {
   });
 
   $(
-    'a:not(".mil-choose , .mil-more , .mil-drag , .mil-accent-cursor"), input , textarea, .mil-accordion-menu'
+    'a:not(".mil-choose , .mil-more , .mil-drag , .mil-accent-cursor"), input , textarea, .mil-accordion-menu',
   ).mouseover(function () {
     gsap.to($(cursor), 0.2, {
       scale: 0,
@@ -391,7 +389,7 @@ $(function () {
   });
 
   $(
-    'a:not(".mil-choose , .mil-more , .mil-drag , .mil-accent-cursor"), input, textarea, .mil-accordion-menu'
+    'a:not(".mil-choose , .mil-more , .mil-drag , .mil-accent-cursor"), input, textarea, .mil-accordion-menu',
   ).mouseleave(function () {
     gsap.to($(cursor), 0.2, {
       scale: 1,
@@ -474,7 +472,7 @@ $(function () {
           trigger: section,
           toggleActions: "play none none reverse",
         },
-      }
+      },
     );
   });
 
@@ -496,7 +494,7 @@ $(function () {
           scrub: true,
           toggleActions: "play none none reverse",
         },
-      }
+      },
     );
   });
 
@@ -519,7 +517,7 @@ $(function () {
             scrub: true,
             toggleActions: "play none none reverse",
           },
-        }
+        },
       );
     });
   }
@@ -541,7 +539,7 @@ $(function () {
           scrub: true,
           toggleActions: "play none none reverse",
         },
-      }
+      },
     );
   });
   /***************************
@@ -1154,4 +1152,3 @@ $(function () {
   //     });
   //   });
 });
-
